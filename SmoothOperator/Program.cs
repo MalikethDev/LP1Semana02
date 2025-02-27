@@ -11,10 +11,13 @@ namespace SmoothOperator
             // Store the input in sbyte
             sbyte n = sbyte.Parse(Console.ReadLine());
 
-            // Result of the n decrement operation
-            sbyte result = --n;
-            // Print the result
-            Console.WriteLine($"The result of the decrement operation is: {result}");
+            // Decrement the value of n by 1
+            sbyte decrement = --n;
+            // Increment the value of n by 1
+            sbyte increment = ++n; 
+            // Print the results
+            Console.WriteLine($"The result of the decrement operation is: {decrement}");
+            Console.WriteLine($"The result of the increment operation is: {increment}");
         }
     }
 }
