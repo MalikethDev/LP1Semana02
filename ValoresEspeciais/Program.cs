@@ -45,11 +45,17 @@ namespace ValoresEspeciais
 
             // Two types of overflow in floats
             float f = float.MaxValue;
-            // Multiply by 2 and divide by 0
             float overflow1 = f * 2; // Infinity
             float overflow2 = f / 0; // Infinity positive or negative depending on the sign
             Console.WriteLine(overflow1);
             Console.WriteLine(overflow2);
+
+            // Two types of underflow in floats
+            float f2 = float.MinValue;
+            float underflow1 = f2 * 2; // Still negative but not 0
+            float underflow2 = f2 / 0; // -Infinity
+            Console.WriteLine(underflow1);
+            Console.WriteLine(underflow2);
         }
     }
 }
