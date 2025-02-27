@@ -15,6 +15,8 @@ namespace VariousOperators
             Console.WriteLine($"The result of the division operation is: {n / 2}");
             // Shift left by 3 bits and print the result
             Console.WriteLine($"The result of the shift left operation is: {n << 3}");
+            // XOR with 6 and print the result
+            Console.WriteLine($"The result of the XOR operation is: {n ^ 6}");
         }
     }
 }
