@@ -42,6 +42,14 @@ namespace ValoresEspeciais
             uint max = uint.MaxValue;
             uint overflow = max + 1;
             Console.WriteLine(overflow);
+
+            // Two types of overflow in floats
+            float f = float.MaxValue;
+            // Multiply by 2 and divide by 0
+            float overflow1 = f * 2; // Infinity
+            float overflow2 = f / 0; // Infinity positive or negative depending on the sign
+            Console.WriteLine(overflow1);
+            Console.WriteLine(overflow2);
         }
     }
 }
