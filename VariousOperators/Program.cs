@@ -17,6 +17,15 @@ namespace VariousOperators
             Console.WriteLine($"The result of the shift left operation is: {n << 3}");
             // XOR with 6 and print the result
             Console.WriteLine($"The result of the XOR operation is: {n ^ 6}");
+            // Verify if the number is bigger than 10 and print the result
+            if (n > 10)
+            {
+                Console.WriteLine("True");
+            }
+            else
+            {
+                Console.WriteLine("False");
+            }
         }
     }
 }
