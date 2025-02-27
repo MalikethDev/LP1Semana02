@@ -29,6 +29,14 @@ namespace ValoresEspeciais
             Console.WriteLine(double.MinValue);
             Console.WriteLine(decimal.MaxValue);
             Console.WriteLine(decimal.MinValue);
+
+            // Print special values ​​−∞, +∞ and NaN from float and double
+            Console.WriteLine(float.NegativeInfinity);
+            Console.WriteLine(float.PositiveInfinity);
+            Console.WriteLine(float.NaN);
+            Console.WriteLine(double.NegativeInfinity);
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.NaN);
         }
     }
 }
