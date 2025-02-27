@@ -37,6 +37,11 @@ namespace ValoresEspeciais
             Console.WriteLine(double.NegativeInfinity);
             Console.WriteLine(double.PositiveInfinity);
             Console.WriteLine(double.NaN);
+
+            // Result of overflow in uints
+            uint max = uint.MaxValue;
+            uint overflow = max + 1;
+            Console.WriteLine(overflow);
         }
     }
 }
