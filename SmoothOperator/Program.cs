@@ -8,8 +8,8 @@ namespace SmoothOperator
         {
             // Ask the user for an int number
             Console.WriteLine("Please enter an integer number: ");
-            // Read the user's input
-            int number = int.Parse(Console.ReadLine());
+            // Store the input in sbyte
+            sbyte n = sbyte.Parse(Console.ReadLine());
         }
     }
 }
