@@ -18,6 +18,9 @@ namespace Cilindro
             double V = Math.PI * Math.Pow(r, 2) * a;
             // Calculate the surface area Sa of the cylinder
             double Sa = 2 * Math.PI * r * (r + a);
+            // Print the results
+            Console.WriteLine($"The volume of the cylinder is: {V}");
+            Console.WriteLine($"The surface area of the cylinder is: {Sa}");
         }
     }
 }
