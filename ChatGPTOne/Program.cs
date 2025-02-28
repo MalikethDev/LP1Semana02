@@ -28,6 +28,9 @@ namespace ChatGPTOne
                 case "What's your mission?":
                     answer = "To help you with your questions!";
                     break;
+                case "Are you more intelligent than me?":
+                    answer = "I'm just a program, so I don't have intelligence!";
+                    break;
                 // Default case if the question is not recognized
                 // Necessary
                 default:
