@@ -6,11 +6,9 @@ namespace ChatGPTOne
     {
         private static void Main(string[] args)
         {   
-            // Declare a string variable to store the question
-            string question;
-            // Ask the user to ask a question
+            // Ask the user to ask a question adn store it in a variable
             Console.WriteLine("Please ask a question: ");
-            question = Console.ReadLine();
+            string question = Console.ReadLine();
         }
     }
 }
