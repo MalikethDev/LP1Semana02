@@ -6,8 +6,9 @@ namespace BreakContinue
     {
         private static void Main(string[] args)
         {
+            // Maximum number of turns
             const int maxTurns = 20;
-            int turn = 0;
+            int turn = 0; // start at 0
             while (true)
             {
                 turn++;
